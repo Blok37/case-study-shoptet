@@ -14,6 +14,9 @@ Podporované banky jsou
 - Creditas
 - Komerční banka
 
+![Activity diagram](/img/activity.png)
+Format: ![Activity diagram](url)
+
 ## Requirements
 ### Parametry pro nastavení doplnku  
 
