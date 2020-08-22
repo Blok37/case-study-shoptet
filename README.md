@@ -2,7 +2,7 @@
 
 ## Business overview
 
-Párování plateb pro e-shopy na platformě Shoptet (https://www.shoptet.cz)
+Párování plateb pro e-shopy na platformě Shoptet (<https://www.shoptet.cz>)
 
 **Doplněk vám ušetří spoustu času. Čas jsou peníze a malá investice do doplňku se vám rychle vrátí v energii, kterou budete moci věnovat důležitějším věcem, než je dohledávání, zda byla objednávka už uhrazena nebo ne.**
 
@@ -28,14 +28,14 @@ Podporované banky jsou
 
 * frekvence pro zjištování nových plateb z banky
 * nastavení, co se mám stát s objednávkou při příchozí platbě
- * pokud je zaplaceno -> vybrat stav, na který se to má přepnout  
- * přeplaceno -> vybrat stav, na který se to má přepnout  
- * nedoplaceno -> vybrat stav, na který se to má přepnout  
+  * pokud je zaplaceno -> vybrat stav, na který se to má přepnout  
+  * přeplaceno -> vybrat stav, na který se to má přepnout  
+  * nedoplaceno -> vybrat stav, na který se to má přepnout  
 
 * nastavení pro banky
- * fio - token + návod jak ho najít  
- * creditas - token + jak ho najít  
- * kb - tlačítko na připojení
+  * fio - token + návod jak ho najít  
+  * creditas - token + jak ho najít  
+  * kb - tlačítko na připojení
 
  TODO jak bude vypadat nastavení
  TODO jak bude vypadat přehled s platbou  
@@ -53,5 +53,5 @@ Podporované banky jsou
 
 ## Documentation
 
-* Dokumentace shoptet: https://developers.shoptet.com
-* Dokumentace Fio: https://www.fio.cz/docs/cz/API_Bankovnictvi.pdf
+* Dokumentace shoptet: <https://developers.shoptet.com>
+* Dokumentace Fio: <https://www.fio.cz/docs/cz/API_Bankovnictvi.pdf>
