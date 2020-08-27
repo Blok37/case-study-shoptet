@@ -26,20 +26,26 @@ Podporované banky jsou
 
 ### Parametry pro nastavení doplnku
 
-* frekvence pro zjištování nových plateb z banky
-* nastavení, co se mám stát s objednávkou při příchozí platbě
-  * pokud je zaplaceno -> vybrat stav, na který se to má přepnout  
-  * přeplaceno -> vybrat stav, na který se to má přepnout  
-  * nedoplaceno -> vybrat stav, na který se to má přepnout  
+#### nastavení pro banky
 
-* nastavení pro banky
-  * fio - token + návod jak ho najít  
-  * creditas - token + jak ho najít  
-  * kb - tlačítko na připojení
+* fio - token + návod jak ho najít  
+* creditas - token + jak ho najít  
+* kb - tlačítko na připojení
 
- TODO jak bude vypadat nastavení
- TODO jak bude vypadat přehled s platbou  
- TODO testovscí eshop a testovaci token
+#### frekvence pro zjištování nových plateb z banky
+
+#### nastavení, co se mám stát s objednávkou při příchozí platbě
+
+* musí načíst stavy objednávek, které e-shop používá
+* načíst číselník způsobů plateb)  
+* pokud je zaplaceno -> vybrat stav, na který se to má přepnout  
+
+### Párování objednávky s platbou
+
+1. Pokud se shoduje objednávka (id objednavky, částka) a platba variabilní symbol a částka
+2. Přeplaceno -> vybrat stav, na který se to má přepnout
+3. Nedoplaceno -> vybrat stav, na který se to má přepnout  
+4. Po příchozí platbě nastavit objednávku pro **způsob platby** nastav **stav objednávky**
 
 ### Log doplnku
 
