@@ -36,9 +36,14 @@ Podporované banky jsou
 
 #### nastavení, co se mám stát s objednávkou při příchozí platbě
 
-* musí načíst stavy objednávek, které e-shop používá
-* načíst číselník způsobů plateb)  
+Technical part
+(https://shoptet.docs.apiary.io/)
+
+* načíst stavy objednávek, které e-shop používá, use API https://api.myshoptet.com/api/orders/statuses
+* načíst číselník způsobů plateb), use API https://api.myshoptet.com/api/payment-methods
 * pokud je zaplaceno -> vybrat stav, na který se to má přepnout  
+
+events při platbě
 
 ### Párování objednávky s platbou
 
